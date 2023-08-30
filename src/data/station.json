@@ -1,0 +1,304 @@
+[
+    {
+      "PlaceId": "1",
+      "CityName": "Tokyo",
+      "CountryName": "Japan",
+      "PlaceName": "Tokyo Station"
+    },
+    {
+      "PlaceId": "2",
+      "CityName": "New York City",
+      "CountryName": "United States",
+      "PlaceName": "Grand Central Terminal"
+    },
+    {
+      "PlaceId": "3",
+      "CityName": "London",
+      "CountryName": "United Kingdom",
+      "PlaceName": "London Waterloo Station"
+    },
+    {
+      "PlaceId": "4",
+      "CityName": "Shanghai",
+      "CountryName": "China",
+      "PlaceName": "Shanghai Hongqiao Railway Station"
+    },
+    {
+      "PlaceId": "5",
+      "CityName": "Paris",
+      "CountryName": "France",
+      "PlaceName": "Gare du Nord"
+    },
+    {
+      "PlaceId": "6",
+      "CityName": "Beijing",
+      "CountryName": "China",
+      "PlaceName": "Beijing South Railway Station"
+    },
+    {
+      "PlaceId": "7",
+      "CityName": "Moscow",
+      "CountryName": "Russia",
+      "PlaceName": "Moscow Kazansky Railway Terminal"
+    },
+    {
+      "PlaceId": "8",
+      "CityName": "Berlin",
+      "CountryName": "Germany",
+      "PlaceName": "Berlin Hauptbahnhof"
+    },
+    {
+      "PlaceId": "9",
+      "CityName": "Istanbul",
+      "CountryName": "Turkey",
+      "PlaceName": "Haydarpaşa Terminal"
+    },
+    {
+      "PlaceId": "10",
+      "CityName": "Chicago",
+      "CountryName": "United States",
+      "PlaceName": "Chicago Union Station"
+    },
+    {
+      "PlaceId": "11",
+      "CityName": "Mumbai",
+      "CountryName": "India",
+      "PlaceName": "Chhatrapati Shivaji Terminus"
+    },
+    {
+      "PlaceId": "12",
+      "CityName": "Kolkata",
+      "CountryName": "India",
+      "PlaceName": "Howrah Junction"
+    },
+    {
+      "PlaceId": "13",
+      "CityName": "Mexico City",
+      "CountryName": "Mexico",
+      "PlaceName": "Mexico City Terminal"
+    },
+    {
+      "PlaceId": "14",
+      "CityName": "Rio de Janeiro",
+      "CountryName": "Brazil",
+      "PlaceName": "Estação Central do Brasil"
+    },
+    {
+      "PlaceId": "15",
+      "CityName": "Cairo",
+      "CountryName": "Egypt",
+      "PlaceName": "Cairo Ramses Railway Station"
+    },
+    {
+      "PlaceId": "16",
+      "CityName": "Madrid",
+      "CountryName": "Spain",
+      "PlaceName": "Atocha Railway Station"
+    },
+    {
+      "PlaceId": "17",
+      "CityName": "Seoul",
+      "CountryName": "South Korea",
+      "PlaceName": "Seoul Station"
+    },
+    {
+      "PlaceId": "18",
+      "CityName": "Sydney",
+      "CountryName": "Australia",
+      "PlaceName": "Sydney Central Station"
+    },
+    {
+      "PlaceId": "19",
+      "CityName": "Toronto",
+      "CountryName": "Canada",
+      "PlaceName": "Toronto Union Station"
+    },
+    {
+      "PlaceId": "20",
+      "CityName": "São Paulo",
+      "CountryName": "Brazil",
+      "PlaceName": "Estação da Luz"
+    },
+    {
+      "PlaceId": "21",
+      "CityName": "Bangkok",
+      "CountryName": "Thailand",
+      "PlaceName": "Hua Lamphong Railway Station"
+    },
+    {
+      "PlaceId": "22",
+      "CityName": "Buenos Aires",
+      "CountryName": "Argentina",
+      "PlaceName": "Estación Retiro"
+    },
+    {
+      "PlaceId": "23",
+      "CityName": "Rome",
+      "CountryName": "Italy",
+      "PlaceName": "Roma Termini"
+    },
+    {
+      "PlaceId": "24",
+      "CityName": "Johannesburg",
+      "CountryName": "South Africa",
+      "PlaceName": "Johannesburg Park Station"
+    },
+    {
+      "PlaceId": "25",
+      "CityName": "Lima",
+      "CountryName": "Peru",
+      "PlaceName": "Estación Central de Lima"
+    },
+    {
+        "PlaceId": "26",
+        "CityName": "Lisbon",
+        "CountryName": "Portugal",
+        "PlaceName": "Lisbon Santa Apolónia Station"
+    },
+    {
+        "PlaceId": "27",
+        "CityName": "Bangalore",
+        "CountryName": "India",
+        "PlaceName": "Bengaluru City Railway Station"
+    },
+    {
+        "PlaceId": "28",
+        "CityName": "Warsaw",
+        "CountryName": "Poland",
+        "PlaceName": "Warsaw Central Station"
+    },
+    {
+        "PlaceId": "29",
+        "CityName": "Hanoi",
+        "CountryName": "Vietnam",
+        "PlaceName": "Hanoi Railway Station"
+    },
+    {
+        "PlaceId": "30",
+        "CityName": "Caracas",
+        "CountryName": "Venezuela",
+        "PlaceName": "Caracas Central Station"
+    },
+    {
+        "PlaceId": "31",
+        "CityName": "Kiev",
+        "CountryName": "Ukraine",
+        "PlaceName": "Kyiv-Passenger Railway Station"
+    },
+    {
+        "PlaceId": "32",
+        "CityName": "Lagos",
+        "CountryName": "Nigeria",
+        "PlaceName": "Lagos Railway Terminus"
+    },
+    {
+        "PlaceId": "33",
+        "CityName": "Dhaka",
+        "CountryName": "Bangladesh",
+        "PlaceName": "Dhaka Railway Station"
+    },
+    {
+        "PlaceId": "34",
+        "CityName": "Ho Chi Minh City",
+        "CountryName": "Vietnam",
+        "PlaceName": "Saigon Railway Station"
+    },
+    {
+        "PlaceId": "35",
+        "CityName": "Nairobi",
+        "CountryName": "Kenya",
+        "PlaceName": "Nairobi Central Railway Station"
+    },
+    {
+        "PlaceId": "36",
+        "CityName": "Bogotá",
+        "CountryName": "Colombia",
+        "PlaceName": "Bogotá Central Station"
+    },
+    {
+        "PlaceId": "37",
+        "CityName": "Santiago",
+        "CountryName": "Chile",
+        "PlaceName": "Estación Central"
+    },
+    {
+        "PlaceId": "38",
+        "CityName": "Jakarta",
+        "CountryName": "Indonesia",
+        "PlaceName": "Jakarta Gambir Station"
+    },
+    {
+        "PlaceId": "39",
+        "CityName": "Manila",
+        "CountryName": "Philippines",
+        "PlaceName": "Manila Central Station"
+    },
+    {
+        "PlaceId": "40",
+        "CityName": "Addis Ababa",
+        "CountryName": "Ethiopia",
+        "PlaceName": "Addis Ababa Railway Terminal"
+    },
+    {
+        "PlaceId": "41",
+        "CityName": "Cape Town",
+        "CountryName": "South Africa",
+        "PlaceName": "Cape Town Station"
+    },
+    {
+        "PlaceId": "42",
+        "CityName": "Lima",
+        "CountryName": "Peru",
+        "PlaceName": "Estación Norte"
+    },
+    {
+        "PlaceId": "43",
+        "CityName": "Quito",
+        "CountryName": "Ecuador",
+        "PlaceName": "Quito Railway Terminal"
+    },
+    {
+        "PlaceId": "44",
+        "CityName": "Guangzhou",
+        "CountryName": "China",
+        "PlaceName": "Guangzhou Railway Station"
+    },
+    {
+        "PlaceId": "45",
+        "CityName": "Chennai",
+        "CountryName": "India",
+        "PlaceName": "Chennai Central Station"
+    },
+    {
+        "PlaceId": "46",
+        "CityName": "Alexandria",
+        "CountryName": "Egypt",
+        "PlaceName": "Alexandria Railway Station"
+    },
+    {
+        "PlaceId": "47",
+        "CityName": "Kuala Lumpur",
+        "CountryName": "Malaysia",
+        "PlaceName": "Kuala Lumpur Sentral Station"
+    },
+    {
+        "PlaceId": "48",
+        "CityName": "Singapore",
+        "CountryName": "Singapore",
+        "PlaceName": "Singapore Central Station"
+    },
+    {
+        "PlaceId": "49",
+        "CityName": "Budapest",
+        "CountryName": "Hungary",
+        "PlaceName": "Budapest Keleti Railway Station"
+    },
+    {
+        "PlaceId": "50",
+        "CityName": "Amsterdam",
+        "CountryName": "Netherlands",
+        "PlaceName": "Amsterdam Centraal Station"
+    }
+]
+      
+  

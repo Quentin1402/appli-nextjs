@@ -1,0 +1,296 @@
+[
+  {
+    "PlaceId": "1",
+    "CityName": "Atlanta",
+    "CountryName": "United States",
+    "PlaceName": "Hartsfield-Jackson Atlanta International Airport"
+  },
+  {
+    "PlaceId": "2",
+    "CityName": "Beijing",
+    "CountryName": "China",
+    "PlaceName": "Beijing Capital International Airport"
+  },
+  {
+    "PlaceId": "3",
+    "CityName": "Los Angeles",
+    "CountryName": "United States",
+    "PlaceName": "Los Angeles International Airport"
+  },
+  {
+    "PlaceId": "4",
+    "CityName": "Dubai",
+    "CountryName": "United Arab Emirates",
+    "PlaceName": "Dubai International Airport"
+  },
+  {
+    "PlaceId": "5",
+    "CityName": "Tokyo",
+    "CountryName": "Japan",
+    "PlaceName": "Tokyo Haneda Airport"
+  },
+  {
+    "PlaceId": "6",
+    "CityName": "Chicago",
+    "CountryName": "United States",
+    "PlaceName": "Chicago O'Hare International Airport"
+  },
+  {
+    "PlaceId": "7",
+    "CityName": "London",
+    "CountryName": "United Kingdom",
+    "PlaceName": "London Heathrow Airport"
+  },
+  {
+    "PlaceId": "8",
+    "CityName": "Shanghai",
+    "CountryName": "China",
+    "PlaceName": "Shanghai Pudong International Airport"
+  },
+  {
+    "PlaceId": "9",
+    "CityName": "Paris",
+    "CountryName": "France",
+    "PlaceName": "Paris Charles de Gaulle Airport"
+  },
+  {
+    "PlaceId": "10",
+    "CityName": "Dallas",
+    "CountryName": "United States",
+    "PlaceName": "Dallas/Fort Worth International Airport"
+  },
+  {
+    "PlaceId": "11",
+    "CityName": "Istanbul",
+    "CountryName": "Turkey",
+    "PlaceName": "Istanbul Airport"
+  },
+  {
+    "PlaceId": "12",
+    "CityName": "Frankfurt",
+    "CountryName": "Germany",
+    "PlaceName": "Frankfurt Airport"
+  },
+  {
+    "PlaceId": "13",
+    "CityName": "Hong Kong",
+    "CountryName": "Hong Kong",
+    "PlaceName": "Hong Kong International Airport"
+  },
+  {
+    "PlaceId": "14",
+    "CityName": "Denver",
+    "CountryName": "United States",
+    "PlaceName": "Denver International Airport"
+  },
+  {
+    "PlaceId": "15",
+    "CityName": "Bangkok",
+    "CountryName": "Thailand",
+    "PlaceName": "Suvarnabhumi Airport"
+  },
+  {
+    "PlaceId": "16",
+    "CityName": "Amsterdam",
+    "CountryName": "Netherlands",
+    "PlaceName": "Amsterdam Schiphol Airport"
+  },
+  {
+    "PlaceId": "17",
+    "CityName": "Singapore",
+    "CountryName": "Singapore",
+    "PlaceName": "Singapore Changi Airport"
+  },
+  {
+    "PlaceId": "18",
+    "CityName": "Guangzhou",
+    "CountryName": "China",
+    "PlaceName": "Guangzhou Baiyun International Airport"
+  },
+  {
+    "PlaceId": "19",
+    "CityName": "Kuala Lumpur",
+    "CountryName": "Malaysia",
+    "PlaceName": "Kuala Lumpur International Airport"
+  },
+  {
+    "PlaceId": "20",
+    "CityName": "New Delhi",
+    "CountryName": "India",
+    "PlaceName": "Indira Gandhi International Airport"
+  },
+  {
+    "PlaceId": "21",
+    "CityName": "São Paulo",
+    "CountryName": "Brazil",
+    "PlaceName": "São Paulo/Guarulhos–Governador André Franco Montoro International Airport"
+  },
+  {
+    "PlaceId": "22",
+    "CityName": "Mumbai",
+    "CountryName": "India",
+    "PlaceName": "Chhatrapati Shivaji Maharaj International Airport"
+  },
+  {
+    "PlaceId": "23",
+    "CityName": "Seoul",
+    "CountryName": "South Korea",
+    "PlaceName": "Incheon International Airport"
+  },
+  {
+    "PlaceId": "25",
+    "CityName": "Miami",
+    "CountryName": "United States",
+    "PlaceName": "Miami International Airport"
+  },
+  {
+    "PlaceId": "26",
+    "CityName": "Seattle",
+    "CountryName": "United States",
+    "PlaceName": "Seattle-Tacoma International Airport"
+  },
+  {
+    "PlaceId": "27",
+    "CityName": "San Francisco",
+    "CountryName": "United States",
+    "PlaceName": "San Francisco International Airport"
+  },
+  {
+    "PlaceId": "28",
+    "CityName": "Las Vegas",
+    "CountryName": "United States",
+    "PlaceName": "McCarran International Airport"
+  },
+  {
+    "PlaceId": "29",
+    "CityName": "Toronto",
+    "CountryName": "Canada",
+    "PlaceName": "Toronto Pearson International Airport"
+  },
+  {
+    "PlaceId": "30",
+    "CityName": "Orlando",
+    "CountryName": "United States",
+    "PlaceName": "Orlando International Airport"
+  },
+  {
+    "PlaceId": "31",
+    "CityName": "Delhi",
+    "CountryName": "India",
+    "PlaceName": "Indira Gandhi International Airport"
+  },
+  {
+    "PlaceId": "32",
+    "CityName": "Istanbul",
+    "CountryName": "Turkey",
+    "PlaceName": "Istanbul Atatürk Airport"
+  },
+  {
+    "PlaceId": "33",
+    "CityName": "Taipei",
+    "CountryName": "Taiwan",
+    "PlaceName": "Taiwan Taoyuan International Airport"
+  },
+  {
+    "PlaceId": "34",
+    "CityName": "Osaka",
+    "CountryName": "Japan",
+    "PlaceName": "Kansai International Airport"
+  },
+  {
+    "PlaceId": "35",
+    "CityName": "Moscow",
+    "CountryName": "Russia",
+    "PlaceName": "Sheremetyevo International Airport"
+  },
+  {
+    "PlaceId": "36",
+    "CityName": "Barcelona",
+    "CountryName": "Spain",
+    "PlaceName": "Barcelona–El Prat Josep Tarradellas Airport"
+  },
+  {
+    "PlaceId": "37",
+    "CityName": "Bangkok",
+    "CountryName": "Thailand",
+    "PlaceName": "Don Mueang International Airport"
+  },
+  {
+    "PlaceId": "38",
+    "CityName": "Minneapolis",
+    "CountryName": "United States",
+    "PlaceName": "Minneapolis-Saint Paul International Airport"
+  },
+  {
+    "PlaceId": "39",
+    "CityName": "Detroit",
+    "CountryName": "United States",
+    "PlaceName": "Detroit Metropolitan Wayne County Airport"
+  },
+  {
+    "PlaceId": "40",
+    "CityName": "Rome",
+    "CountryName": "Italy",
+    "PlaceName": "Leonardo da Vinci–Fiumicino Airport"
+  },
+  {
+    "PlaceId": "41",
+    "CityName": "Houston",
+    "CountryName": "United States",
+    "PlaceName": "George Bush Intercontinental Airport"
+  },
+  {
+    "PlaceId": "42",
+    "CityName": "Phoenix",
+    "CountryName": "United States",
+    "PlaceName": "Phoenix Sky Harbor International Airport"
+  },
+  {
+    "PlaceId": "43",
+    "CityName": "Atlanta",
+    "CountryName": "United States",
+    "PlaceName": "Hartsfield-Jackson Atlanta International Airport"
+  },
+  {
+    "PlaceId": "44",
+    "CityName": "San Diego",
+    "CountryName": "United States",
+    "PlaceName": "San Diego International Airport"
+  },
+  {
+    "PlaceId": "45",
+    "CityName": "Sydney",
+    "CountryName": "Australia",
+    "PlaceName": "Sydney Kingsford Smith Airport"
+  },
+  {
+    "PlaceId": "46",
+    "CityName": "Lima",
+    "CountryName": "Peru",
+    "PlaceName": "Jorge Chávez International Airport"
+  },
+  {
+    "PlaceId": "47",
+    "CityName": "Bogotá",
+    "CountryName": "Colombia",
+    "PlaceName": "El Dorado International Airport"
+  },
+  {
+    "PlaceId": "48",
+    "CityName": "Tel Aviv",
+    "CountryName": "Israel",
+    "PlaceName": "Ben Gurion Airport"
+  },
+  {
+    "PlaceId": "49",
+    "CityName": "Johannesburg",
+    "CountryName": "South Africa",
+    "PlaceName": "OR Tambo International Airport"
+  },
+  {
+    "PlaceId": "50",
+    "CityName": "Vancouver",
+    "CountryName": "Canada",
+    "PlaceName": "Vancouver International Airport"
+  }  
+]

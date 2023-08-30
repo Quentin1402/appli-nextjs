@@ -7,13 +7,18 @@ const NavBar = (props: NavBarProps) => {
   return (
     <div>
       <Link href="/">
-        <Button other_props={{type:"button"}} variant="secondary" size="lg">
-          {title}
+        <Button other_props={{ type: "button" }} variant="secondary" size="lg">
+          Search Airport
         </Button>
       </Link>
       <Link href="/station">
-        <Button other_props={{type:"button"}} variant="secondary" size="lg">
+        <Button other_props={{ type: "button" }} variant="secondary" size="lg">
           Stations finder
+        </Button>
+      </Link>
+      <Link href="/searchFlights">
+        <Button other_props={{ type: "button" }} variant="secondary" size="lg">
+          Search Flights
         </Button>
       </Link>
     </div>

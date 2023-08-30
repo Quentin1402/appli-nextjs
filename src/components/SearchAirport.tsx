@@ -1,6 +1,6 @@
 import { AiportItem } from "../type/types"
 import { useState } from "react"
-import { getFilteredAirports } from "../services/airportService";
+import { getFilteredAirports } from "../services/airportService"
 import Button from "./Button"
 import Airport from "./Airport"
 
@@ -12,15 +12,18 @@ const SearchAirport = () => {
   }
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const filteredAirports = getFilteredAirports(search);
-    setAirports(filteredAirports);
-  };
-  
+    e.preventDefault()
+    const filteredAirports = getFilteredAirports(search)
+    setAirports(filteredAirports)
+  }
+
   return (
     <div className="flex justify-center">
       <div className=" h-auto w-96 mt-10 grid grid-cols-1 gap-4">
         <form onSubmit={handleSubmit}>
+          <h1 className="flex justify-center mb-4 text-4xl font-bold tracking-tight">
+            Search Airport
+          </h1>
           <div className="grid grid-rows-2 grid-flow-col gap-4 mb-3">
             <input
               onChange={handleChange}
@@ -30,7 +33,11 @@ const SearchAirport = () => {
               value={search}
             />
             <div>
-              <Button other_props={{type:"submit"}} variant="btnValidation" size="lg">
+              <Button
+                other_props={{ type: "submit" }}
+                variant="btnValidation"
+                size="lg"
+              >
                 Search Airports
               </Button>
             </div>

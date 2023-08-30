@@ -13,7 +13,7 @@ const SearchStation = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const filteredStation = getFilteredStation(search); // Utilisez la fonction du service
+    const filteredStation = getFilteredStation(search);
     setStation(filteredStation);
   };
 
@@ -30,7 +30,7 @@ const SearchStation = () => {
               value={search}
             />
             <div>
-              <Button type="submit" variant="btnValidation" size="lg">
+              <Button other_props={{type:"submit"}} variant="btnValidation" size="lg">
                 Search Station
               </Button>
             </div>

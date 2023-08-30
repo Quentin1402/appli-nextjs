@@ -4,16 +4,15 @@ import Button from "./Button"
 
 const NavBar = (props: NavBarProps) => {
   const { title } = props
-
   return (
     <div>
       <Link href="/">
-        <Button type="button" variant="secondary" size="lg">
+        <Button other_props={{type:"button"}} variant="secondary" size="lg">
           {title}
         </Button>
       </Link>
       <Link href="/station">
-        <Button type="button" variant="secondary" size="lg">
+        <Button other_props={{type:"button"}} variant="secondary" size="lg">
           Stations finder
         </Button>
       </Link>

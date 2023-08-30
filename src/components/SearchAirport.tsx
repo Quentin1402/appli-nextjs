@@ -13,10 +13,10 @@ const SearchAirport = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const filteredAirports = getFilteredAirports(search); // Utilisez la fonction du service
+    const filteredAirports = getFilteredAirports(search);
     setAirports(filteredAirports);
   };
-
+  
   return (
     <div className="flex justify-center">
       <div className=" h-auto w-96 mt-10 grid grid-cols-1 gap-4">
@@ -30,7 +30,7 @@ const SearchAirport = () => {
               value={search}
             />
             <div>
-              <Button type="submit" variant="btnValidation" size="lg">
+              <Button other_props={{type:"submit"}} variant="btnValidation" size="lg">
                 Search Airports
               </Button>
             </div>

@@ -20,10 +20,11 @@ const sizes: any = {
 
 const Button = (props: ButtonProps) => {
   const { variant, size, ...otherProps }: any = props
-
+  
   return (
     <button
       {...otherProps}
+      
       className={classNames(className, variants[variant], sizes[size])}
     />
   )

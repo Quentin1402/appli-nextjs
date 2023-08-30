@@ -10,7 +10,8 @@ export type LayoutProps = {
 export type ButtonProps = {
   variant: any
   size: any
-  otherProps: any
+  other_props: any
+  children: any
 }
 
 export type AiportItem = {

@@ -6,6 +6,8 @@ export const getFilteredAirports = (search: string): AiportItem[] => {
     (airport.CityName.toLowerCase().includes(search.toLowerCase()) || airport.CountryName.toLowerCase().includes(search.toLowerCase()))
   );
 
+//   filteredAirports = repo.getAirport(search)
+
   return filteredAirports;
 };
 

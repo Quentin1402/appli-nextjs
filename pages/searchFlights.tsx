@@ -2,27 +2,14 @@ import { useState } from "react"
 import Button from "../src/components/Button"
 import Flight from "../src/components/Flight"
 import Layout from "../src/components/Layout"
-import FlightService from "../src/services/FlightService"
 import { UseFlightApiProps } from "../src/type/types"
+import { getFlights } from "../src/methods/getFlights"
 
 const SearchFlights = () => {
   const [flights, setFlights] = useState<UseFlightApiProps[]>([])
 
-  const getFlights = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    const form = e.currentTarget
-    const props: UseFlightApiProps = {
-      origin: form.origin.value,
-      destination: form.destination.value,
-      date: form.date.value,
-      returnDate: form.returnDate.value,
-      adults: form.adults.value,
-      currency: "EUR",
-      countryCode: "FR",
-      market: "fr-FR",
-      filter: "price",
-    }
-    setFlights(FlightService(props))
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    getFlights(e, setFlights)
   }
 
   return (
@@ -30,7 +17,7 @@ const SearchFlights = () => {
       <Layout title="Airports finder">
         <div className="flex justify-center">
           <div className="mt-10">
-            <form onSubmit={getFlights}>
+            <form onSubmit={handleSubmit}>
               <h1 className="flex justify-center mb-4 text-4xl font-bold tracking-tight">
                 Search Flight
               </h1>

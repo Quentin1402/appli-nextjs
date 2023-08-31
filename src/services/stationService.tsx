@@ -1,12 +1,8 @@
-import { StationItem } from "../type/types";
-import stationData from "../data/station.json";
+import { repoFilteredStation } from "../repository/getDatas"
+import { StationItem } from "../type/types"
 
 export const getFilteredStation = (search: string): StationItem[] => {
-  const filteredStation = stationData.filter((station) =>
-    (station.CityName.toLowerCase().includes(search.toLowerCase()) || station.CountryName.toLowerCase().includes(search.toLowerCase()))
-  );
+  return repoFilteredStation(search)
+}
 
-  return filteredStation;
-};
-
-export default getFilteredStation;
+export default getFilteredStation

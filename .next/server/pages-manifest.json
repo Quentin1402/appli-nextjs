@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/station": "pages/station.js",
-  "/searchFlights": "pages/searchFlights.js",
-  "/searchTransport": "pages/searchTransport.js"
+  "/": "pages/index.js"
 }

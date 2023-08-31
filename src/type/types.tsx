@@ -91,3 +91,8 @@ export type UseFlightApiProps = {
   market?: string
   filter?: string
 }
+
+export type transportItem = {
+  id: String
+  name: String
+}

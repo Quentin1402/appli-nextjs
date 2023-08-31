@@ -2,6 +2,7 @@ import { useState } from "react"
 import Layout from "../src/components/Layout"
 import useApi from "../src/components/UseApi"
 import Button from "../src/components/Button"
+import Transport from "../src/components/Transport"
 
 const SearchTransport = () => {
   const [city, setCity] = useState(undefined)
@@ -43,16 +44,11 @@ const SearchTransport = () => {
         {Array.isArray(datas) ? (
           <div>
             {datas.map((data) => (
-              <div className="overflow-hidden bg-white rounded my-4 drop-shadow-lg hover:scale-110">
-                <div className="px-4 py-5 sm:px-6 my-2">
-                  <div key={data.id}>{data.name}</div>
-                  <div className="border-t border-gray-200"></div>
-                </div>
-              </div>
+              <Transport transport={data} />
             ))}
           </div>
         ) : (
-          <h1>titi</h1>
+          <h1>Loading...</h1>
         )}
       </div>
     </Layout>

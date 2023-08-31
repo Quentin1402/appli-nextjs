@@ -3,19 +3,20 @@ import Button from "../src/components/Button"
 import Flight from "../src/components/Flight"
 import Layout from "../src/components/Layout"
 import FlightService from "../src/services/FlightService"
-import { FlightItem, UseFlightApiProps } from "../src/type/types"
+import { UseFlightApiProps } from "../src/type/types"
 
 const SearchFlights = () => {
   const [flights, setFlights] = useState<UseFlightApiProps[]>([])
 
   const getFlights = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    const form = e.currentTarget
     const props: UseFlightApiProps = {
-      origin: e.target.origin.value,
-      destination: e.target.destination.value,
-      date: e.target.date.value,
-      returnDate: e.target.returnDate.value,
-      adults: e.target.adults.value,
+      origin: form.origin.value,
+      destination: form.destination.value,
+      date: form.date.value,
+      returnDate: form.returnDate.value,
+      adults: form.adults.value,
       currency: "EUR",
       countryCode: "FR",
       market: "fr-FR",
@@ -26,7 +27,7 @@ const SearchFlights = () => {
 
   return (
     <>
-      <Layout title="SKYSCANNER">
+      <Layout title="Airports finder">
         <div className="flex justify-center">
           <div className="mt-10">
             <form onSubmit={getFlights}>

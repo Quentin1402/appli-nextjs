@@ -8,7 +8,7 @@ const StationPage = () => {
         <SearchStation />
       </Layout>
     </>
-  );
-};
+  )
+}
 
-export default StationPage;
+export default StationPage

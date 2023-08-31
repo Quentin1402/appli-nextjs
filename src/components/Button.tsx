@@ -1,6 +1,6 @@
 import classNames from "classnames"
 import { ButtonProps } from "../type/types"
-import { className, variants, sizes } from "./StyleButton"
+import { className, sizes, variants } from "./StyleButton"
 
 const Button = (props: ButtonProps) => {
   const { variant, size, ...otherProps }: any = props

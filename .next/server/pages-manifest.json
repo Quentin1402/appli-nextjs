@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/station": "pages/station.js",
   "/searchFlights": "pages/searchFlights.js",
-  "/station": "pages/station.js"
+  "/searchTransport": "pages/searchTransport.js"
 }

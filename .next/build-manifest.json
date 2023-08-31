@@ -35,6 +35,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/searchFlights.js"
     ],
+    "/searchTransport": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/searchTransport.js"
+    ],
     "/station": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -87,8 +87,8 @@ const SearchFlights = () => {
               </div>
             </form>
             <div className="bg-zinc-200 mb-4">
-              {flights.map((flight) => (
-                <Flight flight={flight} />
+              {flights.map((flight, index) => (
+                <Flight key={index} flight={flight} />
               ))}
             </div>
           </div>
